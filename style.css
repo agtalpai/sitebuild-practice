@@ -1,0 +1,95 @@
+body {
+    background: #ffeedf;
+    font-family: 'Space Grotesk', sans-serif
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #ffeedf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    color: #154434;
+    border-bottom: 1px solid #154434;
+    padding: 0 13px;
+}
+
+header h1, header span.material-symbols-outlined {
+    font-size: 36px;
+}
+
+.list-item {
+    width: 100%;
+    max-width: 400px;
+    background-color: #154434;
+    color: #ffeedf;
+    padding: 40px 40px 60px;
+}
+
+.list-item h3 {
+    border-top: 1px solid #ffeedf;
+    padding-top: 15px;
+}
+
+.list-item h3, p {
+    font-size: 18px;
+}
+
+.list-item h2 {
+    font-size: 36px;
+    min-height: 90px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 60px 40px 60px;
+}
+
+.card {
+    width: 400px;
+}
+
+.number-container {
+    width: 40px;
+    height: 40px;
+    background: #ffeedf;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #154434;
+    border-radius: 50%;
+    padding: 3px;
+    position: absolute;
+    margin: -20px;
+    z-index:9;
+}
+
+button.btn.details-button {
+    width: 200px;
+    height: 50px;
+    background: #ffeedf;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid #154434;
+    position: relative;
+    left: calc(100% - 190px);
+    top: -40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button.btn.details-button:hover {
+    background: #154434;
+    border: 2px solid #ffeedf;
+    color: #ffeedf;
+    transition: 0.2s ease-in;
+}
